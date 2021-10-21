@@ -11,7 +11,6 @@ public class CarService {
     }
 
     public void addEmployee(Employee employee) {
-
         employees[employeeIndex++] = employee;
     }
 
@@ -19,7 +18,6 @@ public class CarService {
         for (int i = 0; i < employees.length && employees[i] != null; i++) {
             System.out.println("----------------------");
             employees[i].display();
-
         }
     }
 
